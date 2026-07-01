@@ -1,12 +1,13 @@
 # PIT SimBridge Firmware — RAUC A/B (V2)
 
-latest: 1.2.9
-bundle: https://raw.githubusercontent.com/frankreb/pit-transmitter-soc-updater/master/pit-simbridge-1.2.9.raucb
+latest: 1.2.10
+bundle: https://raw.githubusercontent.com/frankreb/pit-transmitter-soc-updater/master/pit-simbridge-1.2.10.raucb
 min_version: 1.2.6
-size: 53463188
+size: 53467284
 
 ## Release Notes
-- Test release to confirm WiFi settings persist across an update. Coming from
-  1.2.8 (or later), the transmitter should keep its WiFi with no re-provisioning.
+- Fixes WiFi provisioning on 1.2.8/1.2.9 (a dangling /opt/pitlabs/networks
+  symlink made the app report "connection failed" even though WiFi connected).
+- WiFi settings continue to persist across updates (from 1.2.8 onward).
 - Installs into the inactive A/B slot and reboots into it (automatic rollback
   if it fails to boot).
