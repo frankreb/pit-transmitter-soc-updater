@@ -1,11 +1,16 @@
 # PIT SimBridge Firmware — RAUC A/B (V2)
 
-latest: 1.2.28
-bundle: https://raw.githubusercontent.com/frankreb/pit-transmitter-soc-updater/master/pit-simbridge-1.2.28.raucb
+latest: 1.2.29
+bundle: https://raw.githubusercontent.com/frankreb/pit-transmitter-soc-updater/master/pit-simbridge-1.2.29.raucb
 min_version: 1.2.6
-size: 53868692
+size: 53872788
 
 ## Release Notes
+- Road feel for the wheel: pick Soft, Normal or Sporty, or set cornering,
+  braking and power, bumps and smoothness yourself (Setup → FFB).
+- Force feedback and Motion rig switches on the Drive screen, under Start
+  transmission; the motion rig can be pointed at your PC from the phone.
+- Fixed: the wheel's centering spring now follows the Centering setting.
 - Receiver mode: switch the PIT Receiver between car and helicopter from the
   app, over ELRS (receiver firmware 4.5.3 / 1.9.2) or with the cable.
 - Race control: one phone controls every station — stop all, pit limiter,
